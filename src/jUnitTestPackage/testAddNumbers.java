@@ -4,11 +4,14 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-public class testAddNumbers{
+public class testAddNumbers {
 
-	@Test
-	public void test() {
-		fail("Not yet implemented");
-	}
+    @Test
+    public void test() {
+        jUnitFunctions junit = new jUnitFunctions();
+        int result = junit.addNumbers(180,200);
+        assertEquals(380, result);
+    }
 
+}
 }
